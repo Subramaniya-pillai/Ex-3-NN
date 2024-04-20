@@ -37,7 +37,7 @@ Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
 
-~
+```
 import numpy as np
 import pandas as pd
 import io
@@ -100,8 +100,7 @@ test=np.array([[0],[1]])
 predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
-
-~
+```
 
 <H3>Output:</H3>
 
